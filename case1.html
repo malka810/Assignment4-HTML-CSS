@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 04 Case 01</title>
+    <link rel="icon" href="https://example.com/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Light background for contrast */
+        }
+     section {
+      /*background: lightblue;*/
+      position: absolute;
+      height: fit-content;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    section>div {
+      background: mediumpurple;
+      color: white;
+      padding: 25px 20px;
+      width: 250px;
+      font-weight: bolder;
+      font-size: 25px;
+      margin: 10px 0px;
+      border-radius: 0px 8px 8px 0px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: -225px;
+      cursor: pointer;
+      transition-duration: 1s;
+    }
+
+    section>div:hover {
+        margin-left: 0;
+    }
+    </style>
+</head>
+<body>
+
+<section>
+    <div>Menu One<i class="fas fa-address-book"></i></div>
+    <div>Menu Two<i class="fas fa-user"></i></div>
+    <div>Menu Three<i class="fas fa-cog"></i></div>
+    <div>Menu Four<i class="fas fa-envelope"></i></div>
+    <div>Menu Five<i class="fas fa-sign-out-alt"></i></div>
+</section>
+
+</body>
+</html>
